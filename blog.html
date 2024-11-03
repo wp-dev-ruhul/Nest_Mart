@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website title -->
+  <title>Nest | Mart &#38; Grocery</title>
+  <!-- fav icon link -->
+  <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+  <!-- Css style link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css style link end -->
+</head>
+
+<body>
+  <!-- Header section HTML part start -->
+  <section>
+    <header>
+      <div class="header_top_main">
+        <div class="container">
+          <div class="row">
+            <!-- Left Column: Navigation Links -->
+            <div class="col-12 col-md-4 py-md-2 py-1 py-md-0 me-auto">
+              <div class="header_top_nav">
+                <ul class="d-flex justify-md-content-start align-items-center">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#" class="border-0">Order Tracking</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right Column: Contact Info and Selectors -->
+            <div class="col-12 offset-md-4 col-md-4 py-md-2 py-1">
+              <div class="header_top_contact d-flex justify-md-content-start justify-content-center align-items-center">
+                <div class="header_top_left">
+                  <p class="px-3 px-md-0">Need help? Call Us: <span><a
+                        href="tel:+8801581401877">+8801581401877</a></span></p>
+                </div>
+                <div class="header_top_lang px-3 px-md-0">
+                  <select name="lang" id="lang">
+                    <option value="english">English</option>
+                    <option value="bengali">Bengali</option>
+                  </select>
+                </div>
+                <div class="header_top_usd">
+                  <select name="money" id="money">
+                    <option value="usd">USD</option>
+                    <option value="tk">TAKA</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header bottom section html part start -->
+      <div class="header_bottom_main">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-2  d-flex justify-content-center align-items-center mb-3 mb-md-0">
+              <div class="logo">
+                <img src="./image/logo.png" alt="Main Logo" srcset="">
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="header_search d-flex justify-content-start align-items-center ">
+                <div class="categories">
+                  <select name="categories" id="categories">
+                    <option value="categories">All Categories</option>
+                    <option value="tk">Mobile phones</option>
+                    <option value="tk">Game consoles</option>
+                    <option value="tk">Household furniture</option>
+                    <option value="tk">Home appliances</option>
+                    <option value="tk">Clothing</option>
+                    <option value="tk">Snow Sports</option>
+                    <option value="tk">Camping &#38; Hiking</option>
+                    <option value="tk">Yard Games</option>
+                  </select>
+                </div>
+                <div class="search">
+                  <input type="search" name="serch" id="serch" placeholder="Search for items...">
+                  <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mt-3 mt-md-0 d-none d-md-block">
+              <div class="categories location">
+                <i class="fa-solid fa-location-dot"></i>
+                <select name="location" id="location">
+                  <option value="location">Your Location</option>
+                  <option value="tk">Dhaka</option>
+                  <option value="tk">Tangail</option>
+                </select>
+              </div>
+            </div>
+            <div
+              class="col-8 col-md-4 mt-4 mt-md-0 d-flex d-md-block justify-content-center align-items-center w-auto m-auto m-md-0">
+              <div class="row">
+                <div class="col-md-3 col-3 ">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_1.png" alt="" srcset="">
+                      <p>5</p>
+                    </div>
+                    <h6>Compare</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_2.png" alt="" srcset="">
+                      <p>2</p>
+                    </div>
+                    <h6>Wishlist</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-start align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_3.png" alt="" srcset="">
+                      <p>6</p>
+                    </div>
+                    <h6>Cart</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_4.png" alt="" srcset="">
+                    </div>
+                    <h6>Account</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header bottom section html part End -->
+    </header>
+  </section>
+  <!-- Header section HTML part end -->
+  <!-- nav_bar html part desing start -->
+  <section>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand d-flex justify-content-start align-items-center ">
+          <div class="categories nav_c">
+            <img class="me-1" src="./image/c.png" alt="" srcset="">
+            <h1>Browse</h1>
+            <select name="categories" id="categorie">
+              <option value="categories">All Categories</option>
+              <option value="tk">Mobile phones</option>
+              <option value="tk">Game consoles</option>
+              <option value="tk">Household furniture</option>
+              <option value="tk">Home appliances</option>
+              <option value="tk">Clothing</option>
+              <option value="tk">Snow Sports</option>
+              <option value="tk">Camping &#38; Hiking</option>
+              <option value="tk">Yard Games</option>
+            </select>
+          </div>
+          <div class="hot  d-flex justify-content-start align-items-center ms-me-3 ms-0">
+            <img class="me-2" src="./image/hot-deal.png" alt="" srcset="">
+            <p>Deals</p>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-4 text-center text-md-start">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Vendors
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mega menu
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle active" href="blog.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item " href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="nav_right ms-auto d-none d-md-flex justify-content-start align-items-center">
+            <img src="./image/headphone.png" alt="" srcset="">
+            <div class="contact_nav_right ms-2">
+              <a href="tel:01581401877">01581401877</a>
+              <p>24/7 Support Center</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- nav_bar html part desing End -->
+  <!-- blog page html part start  -->
+  <!-- blog top page destination section start -->
+  <section class="mt-5 mb-5">
+    <div class="container">
+      <div class="blog_top">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="b_t_l">
+              <h1>Blog &#38; News</h1>
+              <div class="page_destination_main">
+                <ul class=" d-flex justify-content-start align-items-center">
+                  <li><a href="index.html" class="p_g_c"><i class="fa-solid fa-house"></i> Home <i
+                        class="fa-solid fa-angle-right"></i></a> </li>
+                  <li><a href=""> Blog &#38; News</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <div class="blog_top_right ">
+              <ul class="d-flex justify-content-center align-items-center">
+                <li><a href="#"><i class="fa-solid fa-x"></i>Shopping</a></li>
+                <li><a href="#" class="text-black"><i class="fa-solid fa-x"></i>Recips</a></li>
+                <li><a href="#"><i class="fa-solid fa-x"></i>Kitchen</a></li>
+                <li><a href="#"><i class="fa-solid fa-x"></i>News</a></li>
+                <li><a href="#"><i class="fa-solid fa-x"></i>Food</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog top page destination section End -->
+  <!-- blog content main started  -->
+  <!-- blog_content_left section html part start  -->
+  <section class="mt-5 mb-5 ">
+    <div class="container d-flex justify-content-between align-items-start">
+      <div class="blog_left">
+        <div class="row ">
+          <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+            <img src="./image/blog_recips.png" alt="" srcset="" class="me-3">
+            <h1> Recips Articles</h1>
+          </div>
+          <div class="col-12 col-md-6 blog_right_link d-flex justify-content-end align-items-center">
+            <a href="#" class="d-flex justify-content-center align-items-center me-4"><img src="./image/grid_4.png"
+                alt="" srcset="" class=" me-2">Show: 50</a>
+            <a href="#" class="d-flex justify-content-center align-items-center"><img src="./image/grid_2.png" alt=""
+                srcset="" class=" me-2">Sort: Featured </a>
+          </div>
+        </div>
+        <!-- blog content area html part start  -->
+        <div class="blog_content_wrapper">
+          <div class="row">
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-1.png" alt="" class="rounded w-100 mb-3">
+                <h6>Side Dish</h6>
+                <h1>The Intermediate Guide to Healthy Food</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-2.png" alt="" class="rounded w-100 mb-3">
+                <h6>Soups and Stews</h6>
+                <h1>Summer Quinoa Salad Jars with Lemon Dill</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-3.png" alt="" class="rounded w-100 mb-3">
+                <h6>Salad</h6>
+                <h1>Caprese Chicken with Smashed Potatoes</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-4.png" alt="" class="rounded w-100 mb-3">
+                <h6>Dessert</h6>
+                <h1>Harissa Chickpeas with Whipped Feta</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-5.png" alt="" class="rounded w-100 mb-3">
+                <h6>Breakfast</h6>
+                <h1>Almond Butter Chocolate Chip Zucchini Bars</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-6.png" alt="" class="rounded w-100 mb-3">
+                <h6>Vegan</h6>
+                <h1>Smoky Beans &#38; Greens Tacos with Aji Verde</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-7.png" alt="" class="rounded w-100 mb-3">
+                <h6>Gluten Free</h6>
+                <h1>Sticky Ginger Rice Bowls with Pickled Veg</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-8.png" alt="" class="rounded w-100 mb-3">
+                <h6>Side Dish</h6>
+                <h1>Creamy Garlic Sun-Dried Tomato Pasta</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-9.png" alt="" class="rounded w-100 mb-3">
+                <h6>Dairy Free</h6>
+                <h1>The Absolute Easiest Spinach and Pizza</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-10.png" alt="" class="rounded w-100 mb-3">
+                <h6>Salad</h6>
+                <h1>Sticky Ginger Rice Bowls with Pickled</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-11.png" alt="" class="rounded w-100 mb-3">
+                <h6>Soups</h6>
+                <h1>The Best Soft Chocolate Chip Cookies</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-12.png" alt="" class="rounded w-100 mb-3">
+                <h6>Vegetarian</h6>
+                <h1>Baked Mozzarella Chicken Rolls</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-13.png" alt="" class="rounded w-100 mb-3">
+                <h6>Dessert</h6>
+                <h1>The Best Avocado Egg Salad</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-14.png" alt="" class="rounded w-100 mb-3">
+                <h6>Vegetarian</h6>
+                <h1>The Intermediate Guide to Healthy Food</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-5 ">
+              <div class="blog_content text-center">
+                <img src="./image/blog-15.png" alt="" class="rounded w-100 mb-3">
+                <h6>Vegetarian</h6>
+                <h1>The Intermediate Guide to Healthy Food</h1>
+                <p>25 April 2022 <span class="px-1">-</span>126k Views <span class="px-1">-</span>4 mins read</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- blog content area html part End -->
+    </div>
+        <!-- blog section right html part start  -->
+        <div class="blog_right">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 d-md-block d-none">
+                    <div class="blog_c_r position-relative">
+                          <input type="search" name="" id="" class="w-100 d-block border-0">
+                          <button type="submit" class="position-absolute top-0 end-0 bg-transparent border-0 btn-outline-none"><img src="./image/search_icon.png" alt="" srcset=""></button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 d-none d-md-block mt-3">
+                <div class="content_c">
+                  <div class="c_title">
+                    <h1>Category</h1>
+                  </div>
+                  <div class="c_items d-flex justify-content-between align-items-center mt-4">
+                    <div class="c_left d-flex justify-content-start align-items-center">
+                      <img src="./image/catagories-1.png" alt="">
+                      <p class="d-inline-block ms-2">Milks &#38; Dairies</p>
+                    </div>
+                    <div class="c_right">
+                      <p>3</p>
+                    </div>
+                  </div>
+                  <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                    <div class="c_left d-flex justify-content-start align-items-center">
+                      <img src="./image/category-2.png" alt="">
+                      <p class="d-inline-block ms-2">Clothing</p>
+                    </div>
+                    <div class="c_right">
+                      <p>4</p>
+                    </div>
+                  </div>
+                  <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                    <div class="c_left d-flex justify-content-start align-items-center">
+                      <img src="./image/category-3.svg.png" alt="">
+                      <p class="d-inline-block ms-2">Pet Foods</p>
+                    </div>
+                    <div class="c_right">
+                      <p>5</p>
+                    </div>
+                  </div>
+                  <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                    <div class="c_left d-flex justify-content-start align-items-center">
+                      <img src="./image/category-4.svg.png" alt="">
+                      <p class="d-inline-block ms-2">Baking material</p>
+                    </div>
+                    <div class="c_right">
+                      <p>8</p>
+                    </div>
+                  </div>
+                  <div class="c_items d-flex justify-content-between align-items-center mt-3 mb-2">
+                    <div class="c_left d-flex justify-content-start align-items-center">
+                      <img src="./image/category-5.svg fill.png" alt="">
+                      <p class="d-inline-block ms-2">Fresh Fruit</p>
+                    </div>
+                    <div class="c_right">
+                      <p>10</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 d-none d-md-block mt-3">
+                <div class="content_c">
+                  <div class="c_title">
+                    <h1>New products</h1>
+                  </div>
+                  <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                    <img src="./image/c_b_1.png" alt="" class="me-3">
+                    <div class="c_b_right">
+                      <p>Chen Cardigan</p>
+                      <h6>$99.50</h6>
+                      <img src="./image/start.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                    <img src="./image/c_b_2.png" alt="" class="me-3">
+                    <div class="c_b_right">
+                      <p>Chen Sweater</p>
+                      <h6>$89.50</h6>
+                      <img src="./image/start.png" alt="" srcset="">
+                    </div>
+                  </div>
+                  <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                    <img src="./image/c_b_3.png" alt="" class="me-3">
+                    <div class="c_b_right">
+                      <p>Colorful Jacket</p>
+                      <h6>$25</h6>
+                      <img src="./image/start.png" alt="" srcset="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- blog section right html part End -->
+    </div>
+  </section>
+  <!-- blog_content_left section html part End -->
+
+  <!-- blog content main End -->
+  <!-- blog page html part End -->
+  <!-- button section html part start  -->
+  <section class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="banner_main footer_banner">
+            <h1>Stay home &#38; get your daily<br>
+              needs from our shop</h1>
+            <p>Start You'r Daily Shopping with <a href="index.html">Nest Mart</a></p>
+            <form action="" method="get">
+              <div class="s_area">
+                <input type="email" name="search" id="s_icon" class="search-input" placeholder="Enter your email"
+                  aria-label="Email" required>
+                <button type="submit" id="subscribe_btn" class="hero_btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- button section html part End -->
+  <!-- main content botton section html part End -->
+  <!-- foooter section html part start  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer_main d-flex justify-content-between align-content-center">
+          <!-- footer logo html part start  -->
+          <div class="footer_logo">
+            <img src="./image/logo.png" alt="" srcset="">
+            <p class="footer_logo_p">Awesome grocery store website
+              template</p>
+            <div class="icon_content d-flex justify-content-start  align-items-center">
+              <div class="icon"><img src="./image/location_icon.png" alt="" srcset=""></div>
+              <div class="content">
+                <p><span>Address: </span>5171 W Campbell Ave</p>
+              </div>
+            </div>
+            <h4 class="location_bottom">undefined Kent, Utah 53127 United States</h4>
+            <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+              <div class="icon"><img src="./image/headphone_icon.png" alt="" srcset=""></div>
+              <div class="content">
+                <p><span>Call Us:</span>01581401877</p>
+              </div>
+            </div>
+            <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+              <div class="icon"><img src="./image/email_icon.png" alt="" srcset=""></div>
+              <div class="content">
+                <p><span>Email:</span>wp.dev.ruhul@gmail.com</p>
+              </div>
+            </div>
+            <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+              <div class="icon"><img src="./image/hours_icon.png" alt="" srcset=""></div>
+              <div class="content">
+                <p><span>Hours:</span>10:00 - 18:00, Mon - Sat</p>
+              </div>
+            </div>
+          </div>
+          <!-- footer logo html part End -->
+          <!-- footer nav html part start  -->
+          <div class="footer_nav_main">
+            <h1>Company</h1>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Delivery Information</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms &#38; Conditions</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Support Center</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <!-- footer nav html part End -->
+          <!-- footer nav html part start  -->
+          <div class="footer_nav_main">
+            <h1>Account</h1>
+            <ul>
+              <li><a href="#">Sign In</a></li>
+              <li><a href="#">View Cart </a></li>
+              <li><a href="#">My Wishlist</a></li>
+              <li><a href="#">Track My Order</a></li>
+              <li><a href="#">Help Ticket</a></li>
+              <li><a href="#">Shipping Details</a></li>
+              <li><a href="#">Compare products</a></li>
+            </ul>
+          </div>
+          <!-- footer nav html part End -->
+          <!-- footer nav html part start  -->
+          <div class="footer_nav_main">
+            <h1>Corporate</h1>
+            <ul>
+              <li><a href="#">Become a Vendor</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+              <li><a href="#">Farm Business </a></li>
+              <li><a href="#">Farm Careers</a></li>
+              <li><a href="#">Our Suppliers</a></li>
+              <li><a href="#">Accessibility</a></li>
+              <li><a href="#">Promotions</a></li>
+            </ul>
+          </div>
+          <!-- footer nav html part End -->
+          <!-- footer nav html part start  -->
+          <div class="footer_nav_main nav_b_w">
+            <h1>Popular</h1>
+            <ul>
+              <li><a href="#">Milk &#38; Flavoured Milk</a></li>
+              <li><a href="#">Butter and Margarine</a></li>
+              <li><a href="#">Eggs Substitutes </a></li>
+              <li><a href="#">Marmalades</a></li>
+              <li><a href="#">Sour Cream and Dips</a></li>
+              <li><a href="#">Tea &#38; Kombucha</a></li>
+              <li><a href="#">Cheese</a></li>
+            </ul>
+          </div>
+          <!-- footer nav html part End -->
+          <!-- footer nav html part start  -->
+          <div class="footer_nav_main nav_right">
+            <h1>Install App</h1>
+            <div class="footer_right_img d-flex justify-content-between align-items-center">
+              <img src="./image/playstore.png" alt="" srcset="">
+              <img src="./image/app.png" alt="" srcset="">
+            </div>
+            <p class="footer_nav_right">Secured Payment Gateways</p>
+          </div>
+          <!-- footer nav html part End -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- foooter section html part END  -->
+  <!-- bootstrap and Js file link -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- bootstrap and Js file link -->
+</body>
+
+</html>

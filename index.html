@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Website title -->
+  <title>Nest | Mart &#38; Grocery</title>
+  <!-- fav icon link -->
+  <link rel="shortcut icon" href="./image/logo.png" type="image/x-icon">
+  <!-- Css style link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css style link end -->
+</head>
+
+<body>
+  <!-- Header section HTML part start -->
+  <section>
+    <header>
+      <div class="header_top_main">
+        <div class="container">
+          <div class="row">
+            <!-- Left Column: Navigation Links -->
+            <div class="col-12 col-md-4 py-md-2 py-1 py-md-0 me-auto">
+              <div class="header_top_nav">
+                <ul class="d-flex justify-md-content-start align-items-center">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#" class="border-0">Order Tracking</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right Column: Contact Info and Selectors -->
+            <div class="col-12 offset-md-4 col-md-4 py-md-2 py-1">
+              <div class="header_top_contact d-flex justify-md-content-start justify-content-center align-items-center">
+                <div class="header_top_left">
+                  <p class="px-3 px-md-0">Need help? Call Us: <span><a
+                        href="tel:+8801581401877">+8801581401877</a></span></p>
+                </div>
+                <div class="header_top_lang px-3 px-md-0">
+                  <select name="lang" id="lang">
+                    <option value="english">English</option>
+                    <option value="bengali">Bengali</option>
+                  </select>
+                </div>
+                <div class="header_top_usd">
+                  <select name="money" id="money">
+                    <option value="usd">USD</option>
+                    <option value="tk">TAKA</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header bottom section html part start -->
+      <div class="header_bottom_main">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-12 col-md-2  d-flex justify-content-center align-items-center mb-3 mb-md-0">
+              <div class="logo">
+                <img src="./image/logo.png" alt="Main Logo" srcset="">
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="header_search d-flex justify-content-start align-items-center ">
+                <div class="categories">
+                  <select name="categories" id="categories">
+                    <option value="categories">All Categories</option>
+                    <option value="tk">Mobile phones</option>
+                    <option value="tk">Game consoles</option>
+                    <option value="tk">Household furniture</option>
+                    <option value="tk">Home appliances</option>
+                    <option value="tk">Clothing</option>
+                    <option value="tk">Snow Sports</option>
+                    <option value="tk">Camping &#38; Hiking</option>
+                    <option value="tk">Yard Games</option>
+                  </select>
+                </div>
+                <div class="search">
+                  <input type="search" name="serch" id="serch" placeholder="Search for items...">
+                  <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 col-md-2 mt-3 mt-md-0 d-none d-md-block">
+              <div class="categories location">
+                <i class="fa-solid fa-location-dot"></i>
+                <select name="location" id="location">
+                  <option value="location">Your Location</option>
+                  <option value="tk">Dhaka</option>
+                  <option value="tk">Tangail</option>
+                </select>
+              </div>
+            </div>
+            <div
+              class="col-8 col-md-4 mt-4 mt-md-0 d-flex d-md-block justify-content-center align-items-center w-auto m-auto m-md-0">
+              <div class="row">
+                <div class="col-md-3 col-3 ">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_1.png" alt="" srcset="">
+                      <p>5</p>
+                    </div>
+                    <h6>Compare</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_2.png" alt="" srcset="">
+                      <p>2</p>
+                    </div>
+                    <h6>Wishlist</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-start align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_3.png" alt="" srcset="">
+                      <p>6</p>
+                    </div>
+                    <h6>Cart</h6>
+                  </div>
+                </div>
+                <div class="col-md-3 col-3">
+                  <div class="nav_list_right d-flex justify-content-between align-items-center">
+                    <div class="nav_right_icon">
+                      <img src="./image/icon_4.png" alt="" srcset="">
+                    </div>
+                    <h6>Account</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header bottom section html part End -->
+    </header>
+  </section>
+  <!-- Header section HTML part end -->
+  <!-- nav_bar html part desing start -->
+  <section>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="navbar-brand d-flex justify-content-start align-items-center ">
+          <div class="categories nav_c">
+            <img class="me-1" src="./image/c.png" alt="" srcset="">
+            <h1>Browse</h1>
+            <select name="categories" id="categorie">
+              <option value="categories">All Categories</option>
+              <option value="tk">Mobile phones</option>
+              <option value="tk">Game consoles</option>
+              <option value="tk">Household furniture</option>
+              <option value="tk">Home appliances</option>
+              <option value="tk">Clothing</option>
+              <option value="tk">Snow Sports</option>
+              <option value="tk">Camping &#38; Hiking</option>
+              <option value="tk">Yard Games</option>
+            </select>
+          </div>
+          <div class="hot  d-flex justify-content-start align-items-center ms-me-3 ms-0">
+            <img class="me-2" src="./image/hot-deal.png" alt="" srcset="">
+            <p>Deals</p>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-4 text-center text-md-start">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="index.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Vendors
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Mega menu
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="blog.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown text-center text-md-start">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu text-center text-md-start">
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+                <li><a class="dropdown-item" href="#">link</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="nav_right ms-auto d-none d-md-flex justify-content-start align-items-center">
+            <img src="./image/headphone.png" alt="" srcset="">
+            <div class="contact_nav_right ms-2">
+              <a href="tel:01581401877">01581401877</a>
+              <p>24/7 Support Center</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- nav_bar html part desing End -->
+  <!-- Main content section html part start -->
+  <!-- content left part desing start -->
+  <section>
+    <div class="content_main d-flex justify-content-start align-items-start">
+      <aside>
+        <!-- top catagories section html part start -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-none d-md-block mt-3">
+              <div class="content_c">
+                <div class="c_title">
+                  <h1>Category</h1>
+                </div>
+                <div class="c_items d-flex justify-content-between align-items-center mt-4">
+                  <div class="c_left d-flex justify-content-start align-items-center">
+                    <img src="./image/catagories-1.png" alt="">
+                    <p class="d-inline-block ms-2">Milks &#38; Dairies</p>
+                  </div>
+                  <div class="c_right">
+                    <p>3</p>
+                  </div>
+                </div>
+                <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                  <div class="c_left d-flex justify-content-start align-items-center">
+                    <img src="./image/category-2.png" alt="">
+                    <p class="d-inline-block ms-2">Clothing</p>
+                  </div>
+                  <div class="c_right">
+                    <p>4</p>
+                  </div>
+                </div>
+                <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                  <div class="c_left d-flex justify-content-start align-items-center">
+                    <img src="./image/category-3.svg.png" alt="">
+                    <p class="d-inline-block ms-2">Pet Foods</p>
+                  </div>
+                  <div class="c_right">
+                    <p>5</p>
+                  </div>
+                </div>
+                <div class="c_items d-flex justify-content-between align-items-center mt-3">
+                  <div class="c_left d-flex justify-content-start align-items-center">
+                    <img src="./image/category-4.svg.png" alt="">
+                    <p class="d-inline-block ms-2">Baking material</p>
+                  </div>
+                  <div class="c_right">
+                    <p>8</p>
+                  </div>
+                </div>
+                <div class="c_items d-flex justify-content-between align-items-center mt-3 mb-2">
+                  <div class="c_left d-flex justify-content-start align-items-center">
+                    <img src="./image/category-5.svg fill.png" alt="">
+                    <p class="d-inline-block ms-2">Fresh Fruit</p>
+                  </div>
+                  <div class="c_right">
+                    <p>10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- top catagories section html part End -->
+        <!-- Middle catagories section html part start -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-none d-md-block mt-3">
+              <div class="content_c">
+                <div class="c_title">
+                  <h1>Fill by price</h1>
+                </div>
+                <div class="c_price_line mt-4">
+                  <div class="c_price_main"></div>
+                  <div class="c_price-1"></div>
+                  <div class="c_price-2"></div>
+                </div>
+                <div class="price_table d-flex justify-content-between align-items-center mt-3">
+                  <p>From: <span>$500</span></p>
+                  <p>To: <span>$1000</span></p>
+                </div>
+                <div class="c_color">
+                  <h1 class="mb-1 mt-2">Color</h1>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> Red (56)
+                  </label>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> Green (78)
+                  </label>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> Blue (54)
+                  </label>
+                </div>
+                <div class="c_color">
+                  <h1 class="mb-1 mt-2">Item Condition</h1>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> New (1506)
+                  </label>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> Refurbished (27)
+                  </label>
+                  <label for="" class="w-100">
+                    <input type="checkbox" name="" id="" class="me-2"> Used (45)
+                  </label>
+                  <a href="#" class="d-flex justify-content-center align-items-center mt-3 ">
+                    <img src="./image/filter.png" alt="" srcset="" class="me-1">
+                    <p class="text-white">filter</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Middle catagories section html part End -->
+        <!-- bottom catagories section html part start -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 d-none d-md-block mt-3">
+              <div class="content_c">
+                <div class="c_title">
+                  <h1>New products</h1>
+                </div>
+                <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                  <img src="./image/c_b_1.png" alt="" class="me-3">
+                  <div class="c_b_right">
+                    <p>Chen Cardigan</p>
+                    <h6>$99.50</h6>
+                    <img src="./image/start.png" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                  <img src="./image/c_b_2.png" alt="" class="me-3">
+                  <div class="c_b_right">
+                    <p>Chen Sweater</p>
+                    <h6>$89.50</h6>
+                    <img src="./image/start.png" alt="" srcset="">
+                  </div>
+                </div>
+                <div class="c_b_main d-flex justify-content-start align-items-center mt-3">
+                  <img src="./image/c_b_3.png" alt="" class="me-3">
+                  <div class="c_b_right">
+                    <p>Colorful Jacket</p>
+                    <h6>$25</h6>
+                    <img src="./image/start.png" alt="" srcset="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- bottom catagories section html part End -->
+      </aside>
+      <!-- content right section HTML part started -->
+      <div class="content_right mt-3">
+        <!-- banner section html part  start -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <div class="banner_main">
+                <h1>Don&#10076;t miss amazing <br> grocery deals</h1>
+                <p>Sign up for the daily newsletter</p>
+                <form action="" method="get">
+                  <div class="s_area">
+                    <input type="email" name="search" id="s_icon" class="search-input" placeholder="Enter your email"
+                      aria-label="Email" required>
+                    <button type="submit" id="subscribe_btn" class="hero_btn">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- banner section html part  End -->
+        <!-- Popular Products section html part start -->
+        <!-- popular products top nav design start  -->
+
+        <nav class="navbar navbar-expand-lg mt-4">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Popular Products</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">All</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Milks &#38; Dairies</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pet Foods</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Meats</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Vegetables</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fruits</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- popular products top nav design End -->
+
+        <!-- popular products top content design Start -->
+        <div class="popular_main mt-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_1.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Snack</p>
+                  <h1>Seeds of Change Organic Quinoe</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$28.85 <del>$32.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_2.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Hodo Foods</p>
+                  <h1>All Natural Italian-Style Chicken Meatballs</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(3.5)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>Stouffer </span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$52.85 <del>$55.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_3.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Snack</p>
+                  <h1>Angie’s Boomchickapop Sweet &#38; Salty</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>StarKist</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$48.85<del>$52.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_4.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Vegetables</p>
+                  <h1>Foster Farms Takeout Crispy Classic</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$17.85 <del>$19.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_5.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Pet Foods</p>
+                  <h1>Blue Diamond Almonds Lightly</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$23.85 <del>$25.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_6.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Hodo Foods</p>
+                  <h1>Chobani Complete Vanilla Greek</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$54.85 <del>$55.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_8.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Meats</p>
+                  <h1>Canada Dry Ginger Ale – 2 L Bottle</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$32.85 <del>$33.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 mt-3">
+                <div class="product_main">
+                  <div class="p_c_t">
+                    <img src="./image/product_9.png" alt="">
+                    <div class="p_c_t_t">
+                      <p>Hot</p>
+                    </div>
+                  </div>
+                  <p>Snack</p>
+                  <h1>Encore Seafoods Stuffed Alaskan</h1>
+                  <div class="p_r">
+                    <div class="row">
+                      <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                      <div class="col-8">
+                        <p>(4.0)</p>
+                      </div>
+                    </div>
+                    <h4 class="mt-1">By <span>NestFood</span></h4>
+                    <div class="p_r_b mt-2">
+                      <div class="row d-flex align-items-center justify-content-start">
+                        <div class="col-6 p_r">
+                          <h5 class="d-flex justify-content-start align-items-center">$35.85 <del>$37.8</del></h5>
+                        </div>
+                        <div class="col-6 p_r_photo">
+                          <a href="#" class="d-flex justify-content-start align-items-center">
+                            <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                            <p>Add</p>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Popular Products section html part End -->
+          </div>
+          <!-- content right section HTML part ended -->
+        </div>
+        <!-- deal of the day html part start  -->
+        <section class="mt-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="deal_top_main d-flex justify-content-between align-items-center">
+                  <div class="deal_left">
+                    <h1>Deals Of The Day</h1>
+                  </div>
+                  <div class="deal_right ">
+                    <a href="#" class="d-flex justify-content-start align-items-center">
+                      <p>All Deals</p><i class="fa-solid fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- deals content html part start  -->
+            <div class="row ">
+              <div class="col-md-3 col-12 ">
+                <div class="deals_content_main mt-4">
+
+
+                  <div class="row px-3 text-center ">
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">426 <span>days</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">08 <span>Hours</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">17 <span>mins</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">58 <span>sec</span></p>
+                    </div>
+
+
+                  </div>
+                  <div class="deals_bottom">
+                    <h1>Encore Seafoods Stuffed Alaskan</h1>
+                    <div class="p_r">
+                      <div class="row">
+                        <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                        <div class="col-8">
+                          <p>(4.0)</p>
+                        </div>
+                      </div>
+                      <h4 class="mt-1">By <span>NestFood</span></h4>
+                      <div class="p_r_b mt-2">
+                        <div class="row d-flex align-items-center justify-content-start">
+                          <div class="col-6 p_r">
+                            <h5 class="d-flex justify-content-start align-items-center">$35.85 <del>$37.8</del></h5>
+                          </div>
+                          <div class="col-6 p_r_photo">
+                            <a href="#" class="d-flex justify-content-start align-items-center">
+                              <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                              <p>Add</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="deals_content_main mt-4 ">
+
+
+                  <div class="row px-3 text-center ">
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">426 <span>days</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">08 <span>Hours</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">17 <span>mins</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">58 <span>sec</span></p>
+                    </div>
+
+
+                  </div>
+                  <div class="deals_bottom">
+                    <h1>Perdue Simply Smart Organics Gluten</h1>
+                    <div class="p_r">
+                      <div class="row">
+                        <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                        <div class="col-8">
+                          <p>(4.0)</p>
+                        </div>
+                      </div>
+                      <h4 class="mt-1">By <span>Old El Paso</span></h4>
+                      <div class="p_r_b mt-2">
+                        <div class="row d-flex align-items-center justify-content-start">
+                          <div class="col-6 p_r">
+                            <h5 class="d-flex justify-content-start align-items-center">$24.85 <del>$26.8</del></h5>
+                          </div>
+                          <div class="col-6 p_r_photo">
+                            <a href="#" class="d-flex justify-content-start align-items-center">
+                              <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                              <p>Add</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="deals_content_main mt-4 ">
+
+
+                  <div class="row px-3 text-center ">
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">426 <span>days</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">08 <span>Hours</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">17 <span>mins</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">58 <span>sec</span></p>
+                    </div>
+                  </div>
+                  <div class="deals_bottom">
+                    <h1>Signature Wood-Fired Mushroom</h1>
+                    <div class="p_r">
+                      <div class="row">
+                        <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                        <div class="col-8">
+                          <p>(4.0)</p>
+                        </div>
+                      </div>
+                      <h4 class="mt-1">By <span>Progresso</span></h4>
+                      <div class="p_r_b mt-2">
+                        <div class="row d-flex align-items-center justify-content-start">
+                          <div class="col-6 p_r">
+                            <h5 class="d-flex justify-content-start align-items-center">$12.85 <del>$13.8</del></h5>
+                          </div>
+                          <div class="col-6 p_r_photo">
+                            <a href="#" class="d-flex justify-content-start align-items-center">
+                              <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                              <p>Add</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12">
+                <div class="deals_content_main mt-4 ">
+                  <div class="row px-3 text-center ">
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">426 <span>days</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">08 <span>Hours</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">17 <span>mins</span></p>
+                    </div>
+                    <div class="col-3 d-flex align-items-center px-1  deals_content ">
+                      <p class="bg-white rounded">58 <span>sec</span></p>
+                    </div>
+
+
+                  </div>
+                  <div class="deals_bottom">
+                    <h1>Simply Lemonade with Raspberry Juice</h1>
+                    <div class="p_r">
+                      <div class="row">
+                        <div class="col-4"><img src="./image/start.png" alt="" srcset=""></div>
+                        <div class="col-8">
+                          <p>(4.0)</p>
+                        </div>
+                      </div>
+                      <h4 class="mt-1">By <span>Yoplait</span></h4>
+                      <div class="p_r_b mt-2">
+                        <div class="row d-flex align-items-center justify-content-start">
+                          <div class="col-6 p_r">
+                            <h5 class="d-flex justify-content-start align-items-center">$15.85 <del>$16.8</del></h5>
+                          </div>
+                          <div class="col-6 p_r_photo">
+                            <a href="#" class="d-flex justify-content-start align-items-center">
+                              <img src="./image/icon_3.png" alt="" srcset="" class="me-1 ms-2">
+                              <p>Add</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- deals content html part End -->
+            <!-- deals content bottom and end section desing html part start  -->
+
+            <div class="row">
+              <div class="col-md-4 col-12">
+                <div class="deals_bottom_main rounded ">
+                  <h1>Everyday Fresh &#38; Clean with Our Products</h1>
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="deals_bottom_main rounded banner_2 ">
+                  <h1>Make your Breakfast
+                    Healthy and Easy</h1>
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+              <div class="col-md-4 col-12">
+                <div class="deals_bottom_main rounded banner_3 ">
+                  <h1>The best Organic
+                    Products Online</h1>
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <!-- deals content bottom and end section desing html part End  -->
+          </div>
+        </section>
+        <!-- deal of the day html part End -->
+      </div>
+    </div>
+  </section>
+  <!-- content left part desing End -->
+  <!-- Main content section html part End -->
+  <!-- shop by categories section html part start  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="shop_top_c d-flex justify-content-between align-items-center">
+            <div class="shop_top_c_left d-flex justify-content-start  align-items-center">
+              <h1>Shop by Categories</h1>
+              <a href="#">All Categories <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="shop_top_c_right d-flex justify-content-start  align-items-center">
+              <div class="shop_t_c me-2 d-flex justify-content-center align-items-center"><a href="#"><i
+                    class="fa-solid fa-arrow-left"></i></a></div>
+              <div class="shop_t_c me-2 d-flex justify-content-center align-items-center"> <a href="#"><i
+                    class="fa-solid fa-arrow-right"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- shop container content section html part start  -->
+      <div class="row">
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_1.png" alt="" sizes="" srcset="">
+            <h6>Milks and Dairies</h6>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_2.png" alt="" sizes="" srcset="">
+            <h6>Wines &#38; Alcohol</h6>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_3.png" alt="" sizes="" srcset="">
+            <h6>Clothing &#38; Beauty</h6>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_4.png" alt="" sizes="" srcset="">
+            <h6>Pet Foods
+              &#38; Toy</h6>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_5.png" alt="" sizes="" srcset="">
+            <h6>Packaged fast food</h6>
+          </div>
+        </div>
+        <div class="col-md-2 col-6">
+          <div class="shop_c_b text-center">
+            <img src="./image/shop_c_6.png" alt="" sizes="" srcset="">
+            <h6>Baking material</h6>
+          </div>
+        </div>
+      </div>
+      <!-- shop container content section html part End -->
+    </div>
+  </section>
+  <!-- shop by categories section html part End -->
+  <!-- Top Selling Section HTML Start -->
+  <section class="mt-4">
+    <div class="container">
+      <div class="row">
+        <!-- Top Selling Column -->
+        <div class="col-12 col-md-3">
+          <div class="top_c_main">
+            <div class="top_c_top">
+              <h1>Top Selling</h1>
+            </div>
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat product item structure as needed -->
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_2.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat product item structure as needed -->
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_3.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Repeat product item structure as needed -->
+          </div>
+        </div>
+
+        <!-- Trending Products Column -->
+        <div class="col-12 col-md-3">
+          <div class="top_c_main">
+            <div class="top_c_top">
+              <h1>Trending Products</h1>
+            </div>
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Recently Added Column -->
+        <div class="col-12 col-md-3">
+          <div class="top_c_main">
+            <div class="top_c_top">
+              <h1>Recently Added</h1>
+            </div>
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Top Rated Column -->
+        <div class="col-12 col-md-3">
+          <div class="top_c_main">
+            <div class="top_c_top">
+              <h1>Top Rated</h1>
+            </div>
+            <!-- Product Items -->
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="top_c_content d-flex justify-content-start align-items-start mt-3">
+              <div class="top_c_left">
+                <img src="./image/top_c_1.png" alt="" class="me-3">
+              </div>
+              <div class="top_c_right">
+                <h1>Nestle Original Coffee-Mate Coffee Creamer</h1>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start">
+                  <div class="top_c_left w-50">
+                    <img src="./image/start.png" alt="" class="me-2">
+                  </div>
+                  <div class="top_c_right">
+                    <p>(4.0)</p>
+                  </div>
+                </div>
+                <div class="top_c_content_bottom d-flex justify-content-start align-items-start mt-1">
+                  <div class="top_c_left w-50">
+                    <h5>$32.85</h5>
+                  </div>
+                  <div class="top_c_right">
+                    <h4>$33.8</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Top Selling Section HTML End -->
+  <!-- button section html part start  -->
+  <section class="mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="banner_main footer_banner">
+            <h1>Stay home &#38; get your daily<br>
+              needs from our shop</h1>
+            <p>Start You'r Daily Shopping with <a href="index.html">Nest Mart</a></p>
+            <form action="" method="get">
+              <div class="s_area">
+                <input type="email" name="search" id="s_icon" class="search-input" placeholder="Enter your email"
+                  aria-label="Email" required>
+                <button type="submit" id="subscribe_btn" class="hero_btn">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- button section html part End -->
+  <!-- main content botton section html part End -->
+  <!-- foooter section html part start  -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="footer_main d-flex justify-content-between align-content-center">
+              <!-- footer logo html part start  -->
+              <div class="footer_logo">
+                <img src="./image/logo.png" alt="" srcset="">
+                <p class="footer_logo_p">Awesome grocery store website
+                  template</p>
+                <div class="icon_content d-flex justify-content-start  align-items-center">
+                  <div class="icon"><img src="./image/location_icon.png" alt="" srcset=""></div>
+                  <div class="content">
+                    <p><span>Address: </span>5171 W Campbell Ave</p>
+                  </div>
+                </div>
+                <h4 class="location_bottom">undefined Kent, Utah 53127 United States</h4>
+                <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+                  <div class="icon"><img src="./image/headphone_icon.png" alt="" srcset=""></div>
+                  <div class="content">
+                    <p><span>Call Us:</span>01581401877</p>
+                  </div>
+                </div>
+                <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+                  <div class="icon"><img src="./image/email_icon.png" alt="" srcset=""></div>
+                  <div class="content">
+                    <p><span>Email:</span>wp.dev.ruhul@gmail.com</p>
+                  </div>
+                </div>
+                <div class="icon_content d-flex justify-content-start  align-items-center mb-2">
+                  <div class="icon"><img src="./image/hours_icon.png" alt="" srcset=""></div>
+                  <div class="content">
+                    <p><span>Hours:</span>10:00 - 18:00, Mon - Sat</p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- footer logo html part End -->
+               <!-- footer nav html part start  -->
+                      <div class="footer_nav_main">
+                          <h1>Company</h1>
+                          <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms &#38; Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Careers</a></li>
+                          </ul>
+                      </div>
+               <!-- footer nav html part End -->
+               <!-- footer nav html part start  -->
+                      <div class="footer_nav_main">
+                          <h1>Account</h1>
+                          <ul>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">View Cart </a></li>
+                            <li><a href="#">My Wishlist</a></li>
+                            <li><a href="#">Track My Order</a></li>
+                            <li><a href="#">Help Ticket</a></li>
+                            <li><a href="#">Shipping Details</a></li>
+                            <li><a href="#">Compare products</a></li>
+                          </ul>
+                      </div>
+               <!-- footer nav html part End -->
+               <!-- footer nav html part start  -->
+                      <div class="footer_nav_main">
+                          <h1>Corporate</h1>
+                          <ul>
+                            <li><a href="#">Become a Vendor</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                            <li><a href="#">Farm Business </a></li>
+                            <li><a href="#">Farm Careers</a></li>
+                            <li><a href="#">Our Suppliers</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Promotions</a></li>
+                          </ul>
+                      </div>
+               <!-- footer nav html part End -->
+               <!-- footer nav html part start  -->
+                      <div class="footer_nav_main nav_b_w">
+                          <h1>Popular</h1>
+                          <ul>
+                            <li><a href="#">Milk &#38; Flavoured Milk</a></li>
+                            <li><a href="#">Butter and Margarine</a></li>
+                            <li><a href="#">Eggs Substitutes </a></li>
+                            <li><a href="#">Marmalades</a></li>
+                            <li><a href="#">Sour Cream and Dips</a></li>
+                            <li><a href="#">Tea &#38; Kombucha</a></li>
+                            <li><a href="#">Cheese</a></li>
+                          </ul>
+                      </div>
+               <!-- footer nav html part End -->
+                  <!-- footer nav html part start  -->
+                  <div class="footer_nav_main nav_right">
+                    <h1>Install App</h1>
+                    <div class="footer_right_img d-flex justify-content-between align-items-center">
+                            <img src="./image/playstore.png" alt="" srcset="">
+                            <img src="./image/app.png" alt="" srcset="">
+
+                    </div>
+                    <p class="footer_nav_right">Secured Payment Gateways</p>
+                </div>
+         <!-- footer nav html part End -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- foooter section html part END  -->
+  <!-- bootstrap and Js file link -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  <!-- bootstrap and Js file link -->
+</body>
+
+</html>
